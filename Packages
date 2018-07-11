@@ -13,3 +13,17 @@ Description: Add customizable blur to SpringBoard icon badges.
 Name: BlurryBadges
 Author: SpicaT
 
+Package: com.spicat.rwpslider
+Version: 0.0.1
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, firmware (>= 11.0)
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.rwpslider_0.0.1_iphoneos-arm.deb
+Size: 2768
+Installed-Size: 72
+MD5sum: ca5396b4190a17918b2c3c2ad7df4b79
+Description: Brightness slider for Reduce White Point when enabled.
+Name: RWP Slider
+Author: SpicaT
+
