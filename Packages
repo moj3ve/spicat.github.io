@@ -20,9 +20,9 @@ Maintainer: SpicaT
 Depends: mobilesubstrate, firmware (>= 11.0)
 Architecture: iphoneos-arm
 Filename: ./debs//com.spicat.rwpslider_0.0.1_iphoneos-arm.deb
-Size: 2768
+Size: 3080
 Installed-Size: 72
-MD5sum: ca5396b4190a17918b2c3c2ad7df4b79
+MD5sum: e989d17cfaba13ecdbe133f94216f793
 Description: Brightness slider for Reduce White Point when enabled.
 Name: RWP Slider
 Author: SpicaT
