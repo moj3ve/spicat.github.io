@@ -27,3 +27,17 @@ Description: Brightness slider for Reduce White Point when enabled.
 Name: RWP Slider
 Author: SpicaT
 
+Package: com.spicat.youpip
+Version: 0.0.1
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, me.alfhaily.cercube, firmware (>= 9.0)
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.youpip_0.0.1_iphoneos-arm.deb
+Size: 2596
+Installed-Size: 136
+MD5sum: f14fb03b09f889c014d15fc0a2bde2f9
+Description: Enable PIP in native YouTube app.
+Name: YouPip
+Author: SpicaT
+
