@@ -30,6 +30,21 @@ Description: adjustable torch for camera app.
 Name: PhotoTorch
 Author: SpicaT
 
+Package: com.spicat.recordpause
+Version: 1.3
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.recordpause_1.3_iphoneos-arm.deb
+Size: 18478
+Installed-Size: 420
+MD5sum: c511b9e2c3a84764b05a583578dc863d
+Description: Pause/resume video recording.
+Name: RecordPause
+Author: SpicaT
+Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
+
 Package: com.spicat.rwpslider
 Version: 0.0.1
 Section: Tweaks
