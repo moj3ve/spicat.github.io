@@ -30,6 +30,23 @@ Description: Enable picture in picture feature with no crashes.
 Name: ForceInPicture
 Author: SpicaT
 
+Package: com.spicat.forceinpicture
+Version: 1.1
+Section: Tweaks
+Maintainer: SpicaT
+Depends: com.bingner.plutil, firmware (>= 11.0)
+Conflicts: com.cabralcole.forceinpicture
+Provides: com.cabralcole.forceinpicture
+Replaces: com.cabralcole.forceinpicture
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.forceinpicture_1.1_iphoneos-arm.deb
+Size: 974
+Installed-Size: 0
+MD5sum: f6af24030118b2b835b86358ca2b1f92
+Description: Enable picture in picture feature with no crashes.
+Name: ForceInPicture
+Author: SpicaT
+
 Package: com.spicat.phototorch
 Version: 1.7
 Section: Tweaks
@@ -116,5 +133,19 @@ Installed-Size: 136
 MD5sum: cc93bfd1b4c704ae5fd2287afe0d8f85
 Description: Enable PIP in native YouTube app.
 Name: YouPip
+Author: SpicaT
+
+Package: com.spicat.youpip
+Version: 0.0.4
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1)
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.youpip_0.0.4_iphoneos-arm.deb
+Size: 2038
+Installed-Size: 72
+MD5sum: 1310e6bd00a765acd59ef23127f4b578
+Description: Enable PIP in native YouTube app.
+Name: YouPIP
 Author: SpicaT
 
