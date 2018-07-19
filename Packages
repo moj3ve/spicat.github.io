@@ -151,6 +151,21 @@ Author: SpicaT
 Depiction: https://spicat.github.io/depiction/youpip.html
 
 Package: com.spicat.youpip
+Version: 0.0.4.2
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.youpip_0.0.4.2_iphoneos-arm.deb
+Size: 2214
+Installed-Size: 72
+MD5sum: c12580460c06eb883ea05543b2c8704e
+Description: Enable PIP in native YouTube app.
+Name: YouPIP
+Author: SpicaT
+Depiction: https://spicat.github.io/depiction/youpip.html
+
+Package: com.spicat.youpip
 Version: 0.0.4
 Section: Tweaks
 Maintainer: SpicaT
