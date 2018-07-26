@@ -129,6 +129,24 @@ Description: Brightness slider for Reduce White Point when enabled.
 Name: RWP Slider
 Author: SpicaT
 
+Package: com.spicat.transparentcamerabar
+Version: 1.8
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0), ws.hbang.common (>= 1.2), gsc.still-camera | gsc.front-facing-camera
+Conflicts: org.thebigboss.transparentcamerabar
+Provides: org.thebigboss.transparentcamerabar
+Replaces: org.thebigboss.transparentcamerabar
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.transparentcamerabar_1.8_iphoneos-arm.deb
+Size: 67716
+Installed-Size: 884
+MD5sum: 90d9c8d47cac5c3795020b240667a7a2
+Description: Set opacity, hide and shrink camera bars.
+Name: TransparentCameraBar
+Author: SpicaT
+Icon: file:///Library/PreferenceBundles/TransparentCameraBarSettings.bundle/TCB@2x.png
+
 Package: com.spicat.youpip
 Version: 0.0.1
 Section: Tweaks
