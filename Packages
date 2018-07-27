@@ -65,6 +65,23 @@ Description: Enable picture in picture feature with no crashes.
 Name: ForceInPicture
 Author: SpicaT
 
+Package: com.spicat.internalphotos
+Version: 1.2
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.internalphotos
+Provides: org.thebigboss.internalphotos
+Replaces: org.thebigboss.internalphotos
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.internalphotos_1.2_iphoneos-arm.deb
+Size: 11774
+Installed-Size: 148
+MD5sum: b24d8febc48951582a1119e530cb446e
+Description: Enable hidden Photos internal settings.
+Name: InternalPhotos
+Author: SpicaT
+
 Package: com.spicat.phototorch
 Version: 1.7
 Section: Tweaks
