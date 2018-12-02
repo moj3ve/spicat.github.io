@@ -32,23 +32,6 @@ Author: SpicaT
 Icon: file:///Library/PreferenceLoader/Preferences/Flashorama/Flasho@2x.png
 
 Package: com.spicat.forceinpicture
-Version: 1.0
-Section: Tweaks
-Maintainer: SpicaT
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: com.cabralcole.forceinpicture
-Provides: com.cabralcole.forceinpicture
-Replaces: com.cabralcole.forceinpicture
-Architecture: iphoneos-arm
-Filename: ./debs//com.spicat.forceinpicture_1.0_iphoneos-arm.deb
-Size: 3010
-Installed-Size: 136
-MD5sum: 76d2dc7630ccba2a3a391ab14e6d488a
-Description: Enable picture in picture feature with no crashes.
-Name: ForceInPicture
-Author: SpicaT
-
-Package: com.spicat.forceinpicture
 Version: 1.1
 Section: Tweaks
 Maintainer: SpicaT
@@ -61,6 +44,23 @@ Filename: ./debs//com.spicat.forceinpicture_1.1_iphoneos-arm.deb
 Size: 974
 Installed-Size: 0
 MD5sum: f6af24030118b2b835b86358ca2b1f92
+Description: Enable picture in picture feature with no crashes.
+Name: ForceInPicture
+Author: SpicaT
+
+Package: com.spicat.forceinpicture
+Version: 1.0
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: com.cabralcole.forceinpicture
+Provides: com.cabralcole.forceinpicture
+Replaces: com.cabralcole.forceinpicture
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.forceinpicture_1.0_iphoneos-arm.deb
+Size: 3010
+Installed-Size: 136
+MD5sum: 76d2dc7630ccba2a3a391ab14e6d488a
 Description: Enable picture in picture feature with no crashes.
 Name: ForceInPicture
 Author: SpicaT
@@ -164,6 +164,64 @@ Name: TransparentCameraBar
 Author: SpicaT
 Icon: file:///Library/PreferenceBundles/TransparentCameraBarSettings.bundle/TCB@2x.png
 
+Package: com.spicat.whatsallemojis
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Spica T
+Depends: mobilesubstrate, com.ps.emojilibrary
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.whatsallemojis_0.0.1_iphoneos-arm.deb
+Size: 4590
+Installed-Size: 136
+MD5sum: c7601c7cd4a9e04a71d77dd43dc3be90
+Description: Ensure you get latest emojis for WhatsApp stamps.
+Name: WhatsAllEmojis
+Author: Spica T
+
+Package: com.spicat.youpip
+Version: 0.0.4
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1)
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.youpip_0.0.4_iphoneos-arm.deb
+Size: 2038
+Installed-Size: 72
+MD5sum: 1310e6bd00a765acd59ef23127f4b578
+Description: Enable PIP in native YouTube app.
+Name: YouPIP
+Author: SpicaT
+
+Package: com.spicat.youpip
+Version: 0.0.4.2
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.youpip_0.0.4.2_iphoneos-arm.deb
+Size: 2214
+Installed-Size: 72
+MD5sum: c12580460c06eb883ea05543b2c8704e
+Description: Enable PIP in native YouTube app.
+Name: YouPIP
+Author: SpicaT
+Depiction: https://spicat.github.io/depiction/youpip.html
+
+Package: com.spicat.youpip
+Version: 0.0.4.3
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.youpip_0.0.4.3_iphoneos-arm.deb
+Size: 3078
+Installed-Size: 136
+MD5sum: 036fc2e382fc4e6e066a254c718fe4fb
+Description: Enable PIP in native YouTube app.
+Name: YouPIP
+Author: SpicaT
+Depiction: https://spicat.github.io/depiction/youpip.html
+
 Package: com.spicat.youpip
 Version: 0.0.1
 Section: Tweaks
@@ -220,48 +278,4 @@ Description: Enable PIP in native YouTube app.
 Name: YouPIP
 Author: SpicaT
 Depiction: https://spicat.github.io/depiction/youpip.html
-
-Package: com.spicat.youpip
-Version: 0.0.4.2
-Section: Tweaks
-Maintainer: SpicaT
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad
-Architecture: iphoneos-arm
-Filename: ./debs//com.spicat.youpip_0.0.4.2_iphoneos-arm.deb
-Size: 2214
-Installed-Size: 72
-MD5sum: c12580460c06eb883ea05543b2c8704e
-Description: Enable PIP in native YouTube app.
-Name: YouPIP
-Author: SpicaT
-Depiction: https://spicat.github.io/depiction/youpip.html
-
-Package: com.spicat.youpip
-Version: 0.0.4.3
-Section: Tweaks
-Maintainer: SpicaT
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Architecture: iphoneos-arm
-Filename: ./debs//com.spicat.youpip_0.0.4.3_iphoneos-arm.deb
-Size: 3078
-Installed-Size: 136
-MD5sum: 036fc2e382fc4e6e066a254c718fe4fb
-Description: Enable PIP in native YouTube app.
-Name: YouPIP
-Author: SpicaT
-Depiction: https://spicat.github.io/depiction/youpip.html
-
-Package: com.spicat.youpip
-Version: 0.0.4
-Section: Tweaks
-Maintainer: SpicaT
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1)
-Architecture: iphoneos-arm
-Filename: ./debs//com.spicat.youpip_0.0.4_iphoneos-arm.deb
-Size: 2038
-Installed-Size: 72
-MD5sum: 1310e6bd00a765acd59ef23127f4b578
-Description: Enable PIP in native YouTube app.
-Name: YouPIP
-Author: SpicaT
 
