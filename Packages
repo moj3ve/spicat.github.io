@@ -82,6 +82,20 @@ Description: Enable hidden Photos internal settings.
 Name: InternalPhotos
 Author: SpicaT
 
+Package: com.spicat.photores
+Version: 1.4
+Maintainer: Spica T
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0), ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.photores
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.photores_1.4_iphoneos-arm.deb
+Size: 29152
+Installed-Size: 236
+MD5sum: 1c775f3e627b398679f894f637e7dc9d
+Description: Taking photos at any sizes.
+Name: PhotoRes+
+Author: Spica T
+
 Package: com.spicat.phototorch
 Version: 1.7
 Section: Tweaks
