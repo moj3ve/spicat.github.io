@@ -129,6 +129,22 @@ Name: PhotoTorch
 Author: SpicaT
 
 Package: com.spicat.recordntorch
+Version: 1.7.11
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0), gsc.camera-flash, gsc.still-camera, ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.recordntorch
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.recordntorch_1.7.11_iphoneos-arm.deb
+Size: 27374
+Installed-Size: 572
+MD5sum: 40891f928eee9022bedc7de952ebc43b
+Description: Toggle Torch while recording video.
+Name: Record 'n' Torch
+Author: SpicaT
+Icon: file:///Library/PreferenceLoaders/Preferences/TFV/TFV@2x.png
+
+Package: com.spicat.recordntorch
 Version: 1.7.10
 Section: Tweaks
 Maintainer: SpicaT
