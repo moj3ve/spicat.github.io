@@ -146,6 +146,22 @@ Name: RecordPause
 Author: SpicaT
 Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
 
+Package: com.spicat.recordpause
+Version: 1.3.1
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0), ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.recordpause
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.recordpause_1.3.1_iphoneos-arm.deb
+Size: 18412
+Installed-Size: 420
+MD5sum: e5e16eb0ac23edfdfa6300b577b858c0
+Description: Pause/resume video recording.
+Name: RecordPause
+Author: SpicaT
+Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
+
 Package: com.spicat.rwpslider
 Version: 0.0.1
 Section: Tweaks
