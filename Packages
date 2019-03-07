@@ -255,6 +255,21 @@ Name: WhatsAllEmojis
 Author: Spica T
 
 Package: com.spicat.youpip
+Version: 0.0.4.6
+Section: Tweaks
+Maintainer: SpicaT
+Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
+Architecture: iphoneos-arm
+Filename: ./debs//com.spicat.youpip_0.0.4.6_iphoneos-arm.deb
+Size: 8966
+Installed-Size: 232
+MD5sum: 565e2f5f864d6633c9baf858731ae239
+Description: Enable PIP in native YouTube app.
+Name: YouPIP
+Author: SpicaT
+Depiction: https://spicat.github.io/depiction/youpip.html
+
+Package: com.spicat.youpip
 Version: 0.0.1
 Section: Tweaks
 Maintainer: SpicaT
