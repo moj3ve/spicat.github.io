@@ -1,10 +1,11 @@
-const VERSION_CHECK_SUPPORTED = "Your iOS version is compatible";
-const VERSION_CHECK_NEEDS_UPGRADE = "You need to be at least on iOS %s";
-const VERSION_CHECK_UNCONFIRMED = "Tweak is untested on iOS %s";
-const VERSION_CHECK_UNSUPPORTED = "Tweak is only for iOS %s to %s";
+const VERSION_CHECK = "Compatible with iOS %s to %s";
+const VERSION_CHECK_UP = "Compatible with iOS %s +";
+const VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
+const VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
+const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
+const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
 
-// Carbon copy PoomSmart.github.io
-(function(document) {
+(function (document) {
 	"use strict";
 
 	function toNum(bits) {
@@ -24,38 +25,41 @@ const VERSION_CHECK_UNSUPPORTED = "Tweak is only for iOS %s to %s";
 	var prerequisite = document.querySelector(".prerequisite"),
 		version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
 
-	if (!prerequisite || !version) {
+	if (!prerequisite) {
 		return;
 	}
 
-	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
+	var minString = prerequisite.dataset.minIos;
+	var maxString = prerequisite.dataset.maxIos;
 
-		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
+	var minVersion = parseVersionString(minString);
+	var maxVersion = maxString ? parseVersionString(maxString) : null;
+	var message = null;
+	var isBad = false;
 
-		minString = prerequisite.dataset.minIos,
-		maxString = prerequisite.dataset.maxIos,
-
-		minVersion = parseVersionString(minString),
-		maxVersion = maxString ? parseVersionString(maxString) : null,
-
-		message = VERSION_CHECK_SUPPORTED,
-		isBad = false;
-
-	if (compareVersions(minVersion, osVersion) == 1) {
-		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
-		isBad = true;
-	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
-		if ("unsupported" in prerequisite.dataset) {
-			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
-		} else {
-			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
+	if (!version) {
+		if (maxString)
+			message = VERSION_CHECK.replace("%s", minString).replace("%s", maxString);
+		else
+			message = VERSION_CHECK_UP.replace("%s", minString);
+	} else {
+		var osVersion = [version[2], version[3], version[4] ? version[5] : 0];
+		var osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : "");
+		message = VERSION_CHECK_SUPPORTED;
+		if (compareVersions(minVersion, osVersion) == 1) {
+			message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
+			isBad = true;
+		} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
+			if ("unsupported" in prerequisite.dataset) {
+				message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
+			} else {
+				message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
+			}
+			isBad = true;
 		}
-
-		isBad = true;
 	}
 
-    prerequisite.querySelector("p").innerHTML = message;
-
+	prerequisite.querySelector("p").innerHTML = message;
 	if (isBad) {
 		prerequisite.classList.add("info");
 	}
