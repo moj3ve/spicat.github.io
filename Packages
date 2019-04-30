@@ -15,6 +15,23 @@ Description: Add customizable blur to SpringBoard icon badges.
 Author: SpicaT
 Name: BlurryBadges
 
+Package: com.spicat.blurrybadges
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 492
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges
+Filename: ./debs/com.spicat.blurrybadges_1.2.3_iphoneos-arm.deb
+Size: 41372
+MD5sum: a484242ef9d7aaa09ca981d8b0038163
+SHA1: 9e15644d4e2910b181c72e4ca1e7f2eda0757a81
+SHA256: f9901b7b141d000b5e7d77ae61d11a83d3df9adc094f331a1d9689fdf7212348
+Section: Tweaks
+Description: Add customizable blur to SpringBoard icon badges.
+Author: SpicaT
+Name: BlurryBadges
+
 Package: com.spicat.flashorama
 Version: 1.6.2
 Architecture: iphoneos-arm
@@ -73,21 +90,24 @@ Description: Enable hidden Photos internal settings.
 Author: SpicaT
 Name: InternalPhotos
 
-Package: com.spicat.photores
-Version: 1.4
+Package: com.spicat.internalphotos
+Version: 1.2.1
 Architecture: iphoneos-arm
-Maintainer: Spica T
-Installed-Size: 236
-Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0), ws.hbang.common (>= 1.2)
-Conflicts: org.thebigboss.photores
-Filename: ./debs/com.spicat.photores_1.4_iphoneos-arm.deb
-Size: 29152
-MD5sum: 1c775f3e627b398679f894f637e7dc9d
-SHA1: dfe818b0bc74c33b86867b7fcb438335a8f760bf
-SHA256: c5644f6a5def69d2d536ab874e1a577e1f12783ae4ef7a8574587e4f6289dfa8
-Description: Taking photos at any sizes.
-Author: Spica T
-Name: PhotoRes+
+Maintainer: SpicaT
+Installed-Size: 212
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.internalphotos
+Replaces: org.thebigboss.internalphotos
+Provides: org.thebigboss.internalphotos
+Filename: ./debs/com.spicat.internalphotos_1.2.1_iphoneos-arm.deb
+Size: 12856
+MD5sum: ba162ef65cb8f62f256705f00c95d342
+SHA1: 12c243bee8a5a6ca802c526fdc0934ee874d7e78
+SHA256: e8e94e5f15ff72904dbbea1917e02265c33e8644491ea4863688ba96578a0f67
+Section: Tweaks
+Description: Enable hidden Photos internal settings.
+Author: SpicaT
+Name: InternalPhotos
 
 Package: com.spicat.photores
 Version: 1.4.1
@@ -101,6 +121,23 @@ Size: 29602
 MD5sum: 2a0e3255ee95959246fb049e640d386b
 SHA1: 10cf816459751753248ed55e51d932d68604efcb
 SHA256: f3d352731bb85a285aa384613e7f269a2bf87f52425a4834605362e27216abd0
+Section: Tweaks
+Description: Taking photos at any sizes.
+Author: Spica T
+Name: PhotoRes+
+
+Package: com.spicat.photores
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: Spica T
+Installed-Size: 364
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0), ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.photores
+Filename: ./debs/com.spicat.photores_1.4.2_iphoneos-arm.deb
+Size: 33206
+MD5sum: e575fb33f096d633264079308677f374
+SHA1: 23fd41ba6ccb1c072bf984dab6ca94fc6f8cf403
+SHA256: 84176bac30dfa5fc448ab74f77313ed2ae5b0991e89df41444fe2d1bd5c2f11f
 Section: Tweaks
 Description: Taking photos at any sizes.
 Author: Spica T
@@ -125,6 +162,25 @@ Description: adjustable torch for camera app.
 Author: SpicaT
 Name: PhotoTorch
 
+Package: com.spicat.phototorch
+Version: 1.7.1
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 1464
+Depends: firmware (>= 6.0), gsc.camera-flash, mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.phototorch
+Replaces: org.thebigboss.phototorch
+Provides: org.thebigboss.phototorch
+Filename: ./debs/com.spicat.phototorch_1.7.1_iphoneos-arm.deb
+Size: 163808
+MD5sum: 9f3550b7d968e2c2ca3d0c3c963c6181
+SHA1: 5ba9cb5a13a3a4faba1f9ceb8cbc27a0611b65b9
+SHA256: c25d4879fa0e761b7cc0461b62d8933c9654d23c98adf37cb127358e58262cf6
+Section: Tweaks
+Description: adjustable torch for camera app.
+Author: SpicaT
+Name: PhotoTorch
+
 Package: com.spicat.recordntorch
 Version: 1.7.11
 Architecture: iphoneos-arm
@@ -137,6 +193,24 @@ Size: 27374
 MD5sum: 40891f928eee9022bedc7de952ebc43b
 SHA1: 838eae2d871373276ae970c63e46d3e5335a7d29
 SHA256: 42fb1837b5bf2b19bd840ad2c5bebd2ae040021a5e2152535cd8a73dfcd8e835
+Section: Tweaks
+Description: Toggle Torch while recording video.
+Author: SpicaT
+Icon: file:///Library/PreferenceLoaders/Preferences/TFV/TFV@2x.png
+Name: Record 'n' Torch
+
+Package: com.spicat.recordntorch
+Version: 1.7.12
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 684
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0), gsc.camera-flash, gsc.still-camera, ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.recordntorch
+Filename: ./debs/com.spicat.recordntorch_1.7.12_iphoneos-arm.deb
+Size: 29388
+MD5sum: 1c5ce8d26771cfa5de6925bdd70eecfc
+SHA1: c26b888f17453e8cb163046dfd25cedf5d60775e
+SHA256: 948aa708cd78de2bd8d6b6be553b7477c9bfc7b070858c1f27fea6995d539cf7
 Section: Tweaks
 Description: Toggle Torch while recording video.
 Author: SpicaT
@@ -161,21 +235,23 @@ Author: SpicaT
 Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
 Name: RecordPause
 
-Package: com.spicat.rwpslider
-Version: 0.0.1
+Package: com.spicat.recordpause
+Version: 1.3.2
 Architecture: iphoneos-arm
 Maintainer: SpicaT
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debs/com.spicat.rwpslider_0.0.1_iphoneos-arm.deb
-Size: 3080
-MD5sum: e989d17cfaba13ecdbe133f94216f793
-SHA1: 56a70a42a768c0309eb5ed4436c6029b7aa9e0c6
-SHA256: 4f3906c3cb18af7410705433c81eb0bb64da9b02e63d7a587d00359b86e8fa61
+Installed-Size: 548
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0), ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.recordpause
+Filename: ./debs/com.spicat.recordpause_1.3.2_iphoneos-arm.deb
+Size: 19910
+MD5sum: e8c0e7259f08a5454abfd9aa53625052
+SHA1: a748a8c96c3d86c6b817438fba51ba654d606734
+SHA256: 6674db92a7c19c2ebde8ff0194bb20394e265a4b7e5f5df6a63d4dff14692bd3
 Section: Tweaks
-Description: Brightness slider for Reduce White Point when enabled.
+Description: Pause/resume video recording.
 Author: SpicaT
-Name: RWP Slider
+Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
+Name: RecordPause
 
 Package: com.spicat.transparentcamerabar
 Version: 1.8
