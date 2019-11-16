@@ -40,10 +40,10 @@ Installed-Size: 492
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Conflicts: org.thebigboss.blurrybadges
 Filename: ./debs/com.spicat.blurrybadges_1.2.4_iphoneos-arm.deb
-Size: 41912
-MD5sum: bd12d99267a8d46b6b49f6f8fa273403
-SHA1: e62eafa4fb250a00668345ec0e8379f2e15e23d6
-SHA256: 74f4115af355952aac9ca60bb8c6f93198128e569d724cd0899e871f609cccc2
+Size: 41876
+MD5sum: 52c2ce861159034394136af82712a1bc
+SHA1: 97dfa7fd013730c3c82cb36608100f8bcdeebd0b
+SHA256: aeefaf9e63a25c4d358cd6f7627588a53fd90ad467070e157b71c0b211e8d303
 Section: Tweaks
 Description: Add customizable blur to SpringBoard icon badges.
 Author: SpicaT
