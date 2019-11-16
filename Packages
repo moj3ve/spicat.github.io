@@ -1,3 +1,20 @@
+Package: com.spicat.appcolorclose
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Spica T
+Installed-Size: 160
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.appcolorclose
+Filename: ./debs/com.spicat.appcolorclose_1.2_iphoneos-arm.deb
+Size: 20512
+MD5sum: 544928b1ee498d993a4666ce7b3c2f8a
+SHA1: 858b68c3cd0f289c1fcafc879d88f5d8fdf632be
+SHA256: 0f18eb8ea9d4ffbfeb3e8648f91cf5c888a3248e6053f7b3ddd17c7163f71234
+Section: Tweaks
+Description: Tint app close box based on app icon color.
+Author: Spica T
+Name: AppColorClose iOS 12+
+
 Package: com.spicat.blurrybadges
 Version: 1.2.3
 Architecture: iphoneos-arm
