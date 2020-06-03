@@ -197,6 +197,24 @@ Author: SpicaT
 Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
 Name: RecordPause
 
+Package: com.spicat.recordpause
+Version: 1.3.3
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.recordpause
+Filename: ./debs/com.spicat.recordpause_1.3.3_iphoneos-arm.deb
+Size: 9414
+MD5sum: 03fa0cff6b987ebb9d741343964ac0b4
+SHA1: c774edb145d9c0163159d3fc32ff3a377eedc187
+SHA256: 53e7f95b0d6a55bfb8effc73273e93d38b2ebfbf5af184e4172a16f99f45dadf
+Section: Tweaks
+Description: Pause/resume video recording.
+Author: SpicaT
+Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
+Name: RecordPause (iOS 9+)
+
 Package: com.spicat.transparentcamerabar
 Version: 1.8
 Architecture: iphoneos-arm
@@ -311,6 +329,23 @@ Size: 14248
 MD5sum: 7fc9f1a316f3f00e60994bf7dfb2e3e4
 SHA1: 7baa0d4482d03fd41c3ee8ecf3ccd3e86fe4be11
 SHA256: d6ef3984b392aaec8ce958efb96418188728a9722dad91ae0b4c28dd358fed27
+Section: Tweaks
+Description: Enable PIP in native YouTube app.
+Author: SpicaT
+Depiction: https://spicat.github.io/depiction/youpip.html
+Name: YouPIP
+
+Package: com.spicat.youpip
+Version: 0.0.6.1
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 308
+Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
+Filename: ./debs/com.spicat.youpip_0.0.6.1_iphoneos-arm.deb
+Size: 14220
+MD5sum: affe4eb89773c37fb463040b2410727f
+SHA1: 99157c259ca8d5fc8a7c4fdca2b82eb9c4e3a26b
+SHA256: 685a1a88562d52b3fe0841995ebc0abdfe5aa4a6bb40179480f11a2dcfa4bc70
 Section: Tweaks
 Description: Enable PIP in native YouTube app.
 Author: SpicaT
